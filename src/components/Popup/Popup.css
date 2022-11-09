@@ -1,0 +1,30 @@
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background: #fff;
+}
+
+.popup-content {
+    padding: 5%;
+}
+
+.popup-content>button {
+    background-color: #888;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    border: none;
+    color: white;
+}
+
+.popup-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.popup-content>button>svg {
+    color: white;
+}

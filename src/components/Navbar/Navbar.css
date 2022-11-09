@@ -1,0 +1,33 @@
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+
+
+/* .Navbar {
+    padding: 0 15% 0 15%;
+
+} */
+
+.Navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.col2 {
+    text-align: center;
+}
+
+.col1 {
+    text-align: left;
+}
+
+.col1 a {
+    margin-right: 1rem;
+}
+
+.col3 {
+    text-align: right;
+
+}
+
+.col3 a {
+    margin-left: 1rem;
+}
