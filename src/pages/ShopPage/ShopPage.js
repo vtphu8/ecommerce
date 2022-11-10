@@ -1,16 +1,24 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
-import Banner from "../../components/Banner/Banner";
-import Categories from "../../components/Categories/Categories";
+import ShopCategories from "./ShopCategories";
+import ProductList from "../../components/ProductList/ProductList";
+
+import "./ShopPage.css";
 
 const ShopPage = () => {
   return (
-    <div>
-      <div className="shop-content">
+    <div className="shopPage">
+      <div>
         <Navbar></Navbar>
-        <Banner></Banner>
-        <Categories></Categories>
-        This is home page content
+        <div className="shop-content">
+          <h2>SHOP</h2>
+          <div className="row gx-0">
+            <ShopCategories />
+            <div className="col-10">
+              <ProductList>Hello</ProductList>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer></Footer>
     </div>

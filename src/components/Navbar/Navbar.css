@@ -20,14 +20,13 @@
 }
 
 .col1 a {
-    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .col3 {
     text-align: right;
-
 }
 
 .col3 a {
-    margin-left: 1rem;
+    margin-right: 1rem;
 }

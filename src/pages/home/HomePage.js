@@ -4,8 +4,9 @@ import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 import Banner from "../../components/Banner/Banner";
 import Categories from "../../components/Categories/Categories";
-import ProductList from "../../components/ProductList/TrendingList";
+import ProductList from "../../components/TrendingList/TrendingList";
 import Popup from "../../components/Popup/Popup";
+import OtherInformation from "../../components/OtherInformation/OtherInformation";
 import "./HomePage.css";
 const HomePage = () => {
   const show = useSelector((state) => state.popup.showPopup);
@@ -18,8 +19,9 @@ const HomePage = () => {
         <Banner></Banner>
         <Categories></Categories>
         <ProductList></ProductList>
+        <OtherInformation></OtherInformation>
         {show === true ? <Popup propductData={popupData}></Popup> : <></>}
-        This is home page content
+        {/* (document.getElementById("app-root").style.filter = "blur(5px)") */}
       </div>
       <Footer></Footer>
     </div>

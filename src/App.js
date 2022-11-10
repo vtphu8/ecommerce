@@ -6,7 +6,7 @@ import ShopPage from "./pages/ShopPage/ShopPage";
 
 function App() {
   return (
-    <div className="App">
+    <div id="app-root" className="App">
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/shoppage" element={<ShopPage />} />
